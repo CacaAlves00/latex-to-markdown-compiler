@@ -1,0 +1,33 @@
+%Tudo que começa com '%' é comentário e é ignorado pelo compilador
+
+%Gerando arquivo em latex:
+%latex arquivo.tex (em dvi)
+%pdflatex arquivo (em pdf)
+%dvipdfm arquivo
+%s2pdf arquivo
+
+% Alguns modos de usar o latex:
+% Windows – Miktex com Led
+% Linux – texlive com kile
+
+\documentclass[12pt]{article} %aqui fala o tipo de documento e o tamanho da fonte. Opções: tamanho do texto (10pt, 12pt, 14pt), formato do papel (a4paper, a5paper, b5paper, letterpaper, legalpaper, executivepaper), o número de colunas (onecolumn, twocolumn), entre outras opções.
+%Por exemplo, [12pt,a4,twocolumn].
+%classe: article, report, letter, book ou slides. Instalar abnt para quem está pensando no tf
+\usepackage[brazil]{babel} %hifenização em português do brasil
+\usepackage[T1]{fontenc} % caracteres com acentos são considerados um bloco só
+\usepackage{ae} %arruma a fonte quando usa o pacote acima
+\usepackage[cp1252]{inputenc} %Encoding do windows, com caracteres acentuados
+\usepackage{amssymb} %alguns caracteres matemáticos especiais
+\usepackage[pdftex]{graphicx}%Para inserir figuras
+
+\title{Exemplo de \LaTeX} % título
+\author{Viviane Teles de Lucca Maranhao \\ viviane@ime.usp.br} % quem escreveu
+
+\begin{document} % Aqui começa o documento
+\chapter{Introduction a}
+\section{PIPIPOPO as}
+\section{PIPIPOPO 2}
+\chapter{Introduction a}
+\section{PIPIPOPO 3}
+asd\par
+\end{document} % Aqui termina o documento

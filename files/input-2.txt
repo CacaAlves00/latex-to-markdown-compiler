@@ -1,0 +1,26 @@
+\documentclass[12pt]{article}
+\usepackage{lingmacros}        
+\usepackage{tree-dvips}
+
+\begin{document}
+
+\chapter{Um chapter}
+< > , ( ) - ? ! ; <----- linguagem cuneiforme
+\section{Uma section}
+
+que legal a materia Compiladores
+
+\subsection{cruzeiro vai cair para serie C}
+
+I'll just assume a tree structure like.
+
+\subsection{yet another subsection}
+
+Mood changes when there is a topic, as well as when
+there is WH-movement. is the mood when
+there is a non-subject topic or WH-phrase in Comp.
+ is the mood when there is a subject topic
+or WH-phrase.
+\underline{mas que trabalho deu fazer esse trabalho !}
+
+\end{document}

@@ -1,0 +1,81 @@
+%Tudo que começa com '%' é comentário e é ignorado pelo compilador
+
+%Gerando arquivo em latex:
+%latex arquivo.tex (em dvi)
+%pdflatex arquivo (em pdf)
+%dvipdfm arquivo
+%s2pdf arquivo
+
+% Alguns modos de usar o latex:
+% Windows – Miktex com Led
+% Linux – texlive com kile
+
+\documentclass[12pt]{article} %aqui fala o tipo de documento e o tamanho da fonte. Opções: tamanho do texto (10pt, 12pt, 14pt), formato do papel (a4paper, a5paper, b5paper, letterpaper, legalpaper, executivepaper), o número de colunas (onecolumn, twocolumn), entre outras opções.
+%Por exemplo, [12pt,a4,twocolumn].
+%classe: article, report, letter, book ou slides. Instalar abnt para quem está pensando no tf
+\usepackage[brazil]{babel} %hifenização em português do brasil
+\usepackage[T1]{fontenc} % caracteres com acentos são considerados um bloco só
+\usepackage{ae} %arruma a fonte quando usa o pacote acima
+\usepackage[cp1252]{inputenc} %Encoding do windows, com caracteres acentuados
+\usepackage{amssymb} %alguns caracteres matemáticos especiais
+\usepackage[pdftex]{graphicx}%Para inserir figuras
+
+\title{Exemplo de \LaTeX} % título
+\author{Viviane Teles de Lucca Maranhao \\ viviane@ime.usp.br} % quem escreveu
+
+\begin{document} % Aqui começa o documento
+\chapter{Paises lusofonos}
+\section{Portugal}
+\section{Angola}
+\section{Macau}
+fim de paragrafo\par
+\chapter{Palavroes}
+babana1
+selvageria
+balburdia
+\section{proibicao dos palavroes no Brasil}
+Veja no fim do capitulo\par
+\bf{negro pequeno (negrito)} Los Hermanos 
+\underline{rata blanca} \it{italia}\par
+\subsection{seu madruga}
+\subsection{chaves}
+mas soh podia ser o Chaves 
+\bf{de novo!}\par
+\chapter{Favelas no Brasil}
+\section{o inicio}
+\bf{ratos invadem australia} rata blanca melhor banda da america latina ?? 
+\underline{rata blanca} \it{italia}\par
+\subsection{seu}
+\section{pay attention}
+\bf{cavalo juan}  aiaiaiaiaiai 
+\underline{rata blanca} \it{China KKKKKKKKKKKK}\par
+\subsection{seu}
+\chapter{nao quero falar com bandeirantes}
+\section{pay attention}
+\bf{negrito} we don't need no education\par 
+\underline{los hermanos} \it{los polos hermanos}\par
+\subsection{seu madruga: eu nAo gosto de ser elogiado em publico !!!!!!!}
+\subsection{prof girafa: eu NAO terminei ainda!!!}
+cringe KKKKKKKKKKKKKKKKKKKKKKK\par
+\chapter{harry potter eh melhor que senhor dozaneis}
+\section{pay attention}
+\bf{neguinho essa frase vai estar} beatles satanico ? entenda o caso 
+\underline{rata blanca} \it{me gusta tu}\par
+\section{pay attention}
+\begin{itemize} 
+\item aranha 
+\item macaco
+\item macaco aranha
+\end{itemize}
+\begin{enumerate} 
+\item 1958
+\item 1962
+\item 1970
+\item 1982 (?)
+\item 1994
+\item 2002
+\end{enumerate}
+i have become comfortably numb
+i have become comfortably numb \bf{i have become comfortably numb}
+i have become comfortably numb \par
+\end{document}

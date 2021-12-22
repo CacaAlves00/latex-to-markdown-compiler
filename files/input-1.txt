@@ -1,0 +1,7 @@
+% Estrutura mínima para o compilador
+% Este documento Latex gera uma saída apenas com os comentários dos settings
+
+\documentclass[12pt]{article} 
+
+\begin{document}
+\end{document}
